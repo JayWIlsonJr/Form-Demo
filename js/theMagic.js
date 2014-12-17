@@ -71,10 +71,6 @@ $(document).ready(function() {
 
   $( "form" ).on( "submit", function( event ) {
     event.preventDefault();
-<<<<<<< HEAD
-  });
-
-=======
     
     $.ajax({
       type: 'POST',
@@ -83,6 +79,6 @@ $(document).ready(function() {
     });
 
   });
->>>>>>> master
+
 
 });

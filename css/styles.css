@@ -25,11 +25,7 @@ body {
   overflow: hidden;
   counter-reset: step;
   text-align: center;
-<<<<<<< HEAD
-  margin: 10px 0 0 -50px;
-=======
   margin: 10px 0 0 -40px;
->>>>>>> master
 }
 
 .progress-bar li {
