@@ -71,7 +71,18 @@ $(document).ready(function() {
 
   $( "form" ).on( "submit", function( event ) {
     event.preventDefault();
+<<<<<<< HEAD
   });
 
+=======
+    
+    $.ajax({
+      type: 'POST',
+      url: $(this).attr('action'),
+      data: $(this).serialize()
+    });
+
+  });
+>>>>>>> master
 
 });
