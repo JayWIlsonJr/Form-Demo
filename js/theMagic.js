@@ -72,6 +72,14 @@ $(document).ready(function() {
   $( "form" ).on( "submit", function( event ) {
     event.preventDefault();
     
+    swal({   
+      title: "Success!",   
+      text: "Thanks, we'll be in contact with you!",   
+      type: "success",   
+      confirmButtonText: "OK", 
+      timer: "4000" 
+    });
+
     $.ajax({
       type: 'POST',
       url: $(this).attr('action'),
